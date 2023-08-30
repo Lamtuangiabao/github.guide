@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: rgb(207, 201, 201) bdb;
+  font-size: 14px;
+}
+h1 {
+  text-align: center;
+  margin-top: 160px;
+}
+
+#form {
+  margin: 0 auto;
+  width: 340px;
+  max-width: 100%;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+input,
+label {
+  width: 100%;
+}
+
+input {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+label#password {
+  width: 50%;
+}
+
+.from-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 8px 12px;
+  width: 100%;
+  background-color: #007aff;
+  /* hệ đếm hexa: 0123456789abcdef */
+  /* background-color: #ff0000; dat mau theo ma hexa*/
+  /* background-color: yellowgreen; dat mau theo ten*/
+  /* background-color: rgb( 100, 100, 100); */
+  border-radius: 6px;
+  border: 1px solid #007aff;
+  transition: all ease 0.3s;
+  color: #fff;
+  margin-top: 24px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #007aff;
+  background-color: transparent;
+}
