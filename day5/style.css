@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;600;700;800;900&display=swap");
+
+/* @font-face {
+  font-family: ahihi;
+  src: url(./Inter-Regular.ttf);
+} */
+
+.lang_item {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 0;
+}
+
+.lang_item-strong {
+  color: red;
+}
+
+h2 {
+  background-color: red;
+}
+span {
+  background-color: brown;
+}
+strong {
+  display: inline;
+  padding: 20px;
+}
+
+.box {
+  width: 100%;
+  height: 100px;
+  background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2020/01/anh-bau-troi-xanh-va-hoa-full-hd.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.box-item {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
