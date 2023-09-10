@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  background-color: bisque;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 100px;
+}
+
+.wrap {
+  max-width: 1024px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  padding: 12px;
+}
+main {
+  margin-top: 100px;
+}
+
+.section {
+  height: auto;
+  min-height: 600px;
+  padding: 60px 0;
+}
+
+h2.title {
+  color: red;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section.hot-products {
+  background-color: burlywood;
+}
+
+.section.sale-products {
+  background-color: orange;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: bisque;
+}
+
+.btn-ontop {
+  z-index: 1000;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 50%;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn.btn-ontop > i.icon-ontop {
+  font-size: 60px;
+  font-weight: 700;
+}
