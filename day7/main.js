@@ -50,6 +50,7 @@ console.log(`Xin chào ${myName}`);
 let x = 10;
 console.log(typeof x);
 let y = "10";
+console.log(!!y);
 // console.log(x / y);
 // console.log(x === y);
 
@@ -65,8 +66,48 @@ console.log(false || false);
 
 console.log(0 && false);
 
+const text = "Nguyen Minh Hoang";
+console.log("Kiem tra do dai chuoi: ", text.length);
+
 /**
  * 1. Giải phương trình bậc 2 với 3 đối số a, b, c
- * 2. Tính chỉ số IBM của người có chiều cao là x cm và cân nặng là y kg
+ * 2. Tính chỉ số BMI của người có chiều cao là x m và cân nặng là y kg biết BMI = cân nặng / (chiều cao x chiều cao)
  * 3. Kiểm tra xem 1 số có phải là số lẻ, số chính phương, số nguyên tố, số hoàn hảo hay không?
  */
+
+// Bài 2:
+const cannang = 60;
+const chieucao = 1.7;
+
+const BMI = Math.trunc(cannang / (chieucao * chieucao));
+console.log(`Chỉ số BMI của bạn là: ${BMI}`);
+
+// Bài 3: Tìm ra số lẻ:
+var myNumber = "Hoang";
+if (typeof myNumber === "number" && myNumber % 2 !== 0) {
+  console.log(`${myNumber} là một số lẻ`);
+} else {
+  console.log(`${myNumber} không là số lẻ`);
+}
+
+let welcome = "Xin chao moi nguoi!";
+console.log(welcome.lastIndexOf("n"));
+
+var firstName = "Hoang";
+var lastName = "Nguyen";
+var fullName = firstName + " " + lastName;
+var fullName2 = firstName.concat(" ", lastName);
+// console.log(fullName2);
+
+/**
+ * Hàm built-in: console, prompt, confirm, alert...
+ */
+
+console.error("test console");
+
+// let isName = prompt("Moi nhap ten cua ban vao day: ");
+// console.log("ahihi");
+
+// let yourIdol = confirm("Ban co than tuong Den Vau khong?");
+
+alert("Xin chao moi nguoi!");
