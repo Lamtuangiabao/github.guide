@@ -19,3 +19,11 @@ function giaiPhuongTrinhBac2(a, b, c) {
   // ...
   // return ??
 }
+
+// B3: Xây dựng 1 hàm mà có thể kiểm tra được dữ liệu đầu vào của người dùng với yêu cầu sau:
+function Validation(email) {
+  // Kiểm tra email của người dùng
+  // 1. Kiểm tra có đúng định dạng email hay không (kiểm tra xem có ký tự "@")
+  // 2. Kiểm tra xem email này đã có trong hệ thống hay chưa, biết trong hệ thống có email là "hoangnm.bg@gmail.com" -> "Email đã được đăng ký"
+  // 3. Kiểm tra email ko được để trống (email != null, undefined)
+}
