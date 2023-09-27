@@ -85,3 +85,18 @@ for (; index < 1000; index++) {
 
 const userNameElement = document.getElementById("userName");
 console.log(userNameElement.value);
+
+/**
+ * #
+ * ##
+ * ###
+ * ####
+ * #####
+ *
+ *
+ *
+ * c    c
+ * cccccc
+ * c    c
+ *
+ */
