@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-background: #e8e1da;
+  --color-text: #1f1d2a;
+}
+
+html {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border: 1px solid #807c7c;
+  transition: all 0.5s ease;
+}
+
+.wrap {
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.d-flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.m-b-100 {
+  margin-bottom: 100px;
+}
+
+header {
+  margin: 40px;
+  font-weight: 500;
+}
+
+.header_logo {
+  font-size: 32px;
+}
+
+.header_nav {
+  width: 440px;
+}
+
+.header_nav__menu-item {
+  padding: 12px;
+}
+
+.btn-sign {
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid var(--color-text);
+  background-color: transparent;
+}
+
+.btn-sign:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+/* banner: begin */
+
+.banner {
+  width: 100%;
+}
+.banner_content,
+.banner_slides {
+  width: 50%;
+}
+
+.banner_content > h1 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.banner_content__desc {
+  color: #9b948e;
+  margin-bottom: 70px;
+}
+
+.btn-cta {
+  background-color: #96c67f;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 32px;
+  border-radius: 8px;
+  border: 1px solid var(--color-text);
+}
+
+.btn-cta:hover {
+  background-color: transparent;
+}
+
+.banner_img {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.banner_img > img {
+  border-radius: 50%;
+}
+
+.banner_desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.banner_obj {
+  color: #9b948e;
+  margin: 4px 0 20px;
+  font-size: 14px;
+}
+.icon-start {
+  font-size: 24px;
+  color: #ffb988;
+}
+
+.btn-next {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: -40px;
+  top: calc(50% - 40px);
+  background-color: transparent;
+}
+
+/* clients: begin */
+.clients > h6 {
+  font-weight: 500;
+  text-align: center;
+}
+
+.companies-list {
+  width: 100%;
+  text-align: center;
+}
+
+.company-item {
+  margin: 30px;
+  height: 30px;
+  width: auto;
+}
+
+.company-item > img {
+  height: 100%;
+  width: auto;
+}
+
+/* clients: end */
