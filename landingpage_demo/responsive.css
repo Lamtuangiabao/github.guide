@@ -1,0 +1,55 @@
+/* @media (max-width: 1199.98px) {
+} */
+
+@media (max-width: 991.98px) {
+  .wrap {
+    margin: 0 60px;
+  }
+  .banner_content > h1 {
+    font-size: 30px;
+    margin-bottom: 24px;
+  }
+
+  .banner_content__desc {
+    margin-bottom: 54px;
+  }
+
+  .btn-cta {
+    font-size: 18px;
+    padding: 18px 24px;
+  }
+  .banner_img {
+    width: 360px;
+    height: 360px;
+  }
+  .d-flex-between {
+    flex-direction: column-reverse;
+  }
+  .banner_slides {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .banner_img {
+    margin: 0 auto;
+  }
+  .banner_content {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .banner_content {
+    text-align: center;
+  }
+  .btn-cta {
+    width: 100%;
+  }
+  .teachers-list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+}
