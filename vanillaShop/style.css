@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+header {
+  height: 100px;
+  background-color: orange;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#banner {
+  height: 200px;
+  width: 100%;
+  background-color: aqua;
+}
+
+footer {
+  width: 100%;
+  background-color: orange;
+}
