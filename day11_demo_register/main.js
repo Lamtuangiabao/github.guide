@@ -1,5 +1,5 @@
 const form = document.getElementById("form");
-
+const users = [];
 // Cách 1: dùng 1 vòng for lấy toàn bộ value ra đổ vào một mảng.
 
 // Khử hành vi mặc định của form
@@ -41,7 +41,10 @@ function send() {
     email: emailElement.value,
     password: passwordElement.value,
   };
-  localStorage.setItem("userInfor", JSON.stringify(userInfor));
+
+  users.push(userInfor);
+
+  localStorage.setItem("users", JSON.stringify(users));
   // Gọi API để register, nếu thành công thì thông báo thành công:
   alert("Đăng ký tài khoản thành công!");
 }
