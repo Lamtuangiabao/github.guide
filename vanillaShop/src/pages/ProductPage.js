@@ -1,8 +1,4 @@
-const products = [
-  { id: "1", name: "Iphone 15", desc: "Mo ta san pham", price: 3000 },
-  { id: "2", name: "Macbook", desc: "Mo ta san pham", price: 3000 },
-  { id: "3", name: "Củ sạc", desc: "Mo ta san pham", price: 3000 },
-];
+import { products } from "../datas/datas";
 
 export default function ProductPage() {
   return `<div>
