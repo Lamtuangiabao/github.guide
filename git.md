@@ -86,3 +86,35 @@ Copy đoạn mã hiển thị ra và paste vào kho cấu hình ssh-key của m�
 - Liệt kê ra các commit, thời gian và tác giả của những commit đó:
 
   `git log`
+
+<!-- GIT -->
+<!-- handling request commit when pull code to the changed sourrce code -->
+<!-- git add shopping_web_test/app.js -->
+<!-- git add shopping_web_test/index.html -->
+<!-- git add shopping_web_test/utils.js -->
+<!-- git commit -m "Fixed bugs in shopping web test files" -->
+<!-- git pull -->
+
+<!-- git push issues: -->
+<!-- The error message "fatal: remote origin already exists" means you're trying to add a remote named "origin" that already exists in your local Git repository. Here's how to fix it:
+Verify Existing Remote:
+
+1.Use the command git remote -v to list all configured remotes and their URLs. This will help you confirm if there's an existing "origin" and see where it points to.
+
+Remove Existing Remote (if necessary):
+
+2.If the existing "origin" points to the wrong repository or you want to use the new URL, remove it with:
+git remote rm origin
+then:
+3.Add the New Remote:
+After removing the old "origin" (if needed), use the original command to add the new remote:
+
+setup lại:
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Lamtuangiabao/khoa1-mentorThang.git
+git push -u origin main
+Nếu đã setup trước khi remove rồi thì dùng lệnh:
+git remote add origin https://github.com/Lamtuangiabao/Minmain-Long.git -->
